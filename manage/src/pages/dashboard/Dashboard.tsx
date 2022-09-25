@@ -56,6 +56,13 @@ const Dashboard = () => {
       bnb: "bnb2",
     },
     {
+      today: "Today's Orders",
+      title: "153",
+      persent: "10%",
+      icon: cart,
+      bnb: "bnb2",
+    },
+    {
       today: "Users",
       title: "3,200",
       persent: "+20%",
@@ -69,31 +76,24 @@ const Dashboard = () => {
       icon: heart,
       bnb: "redtext",
     },
-    {
-      today: "New Orders",
-      title: "$13,200",
-      persent: "10%",
-      icon: cart,
-      bnb: "bnb2",
-    },
   ];
 
   const list = [
     {
       img: ava1,
-      Title: "Điện Thoại iPhone 13 Pro Max 512GB",
+      Title: "Điện Thoại iPhone 13 Pro Max 512GB - Apple GPU (4-core graphics)",
       bud: "$126,000",
       progress: <Progress percent={60} size="small" />
     },
     {
       img: ava2,
-      Title: "Máy Tính Bảng Samsung Galaxy Tab S7 FE LTE T735 (4GB/64GB)",
+      Title: "Máy Tính Bảng Samsung Galaxy Tab S7 FE LTE T735 (4GB/64GB) - Apple GPU (4-core graphics)",
       bud: "$3,000",
       progress: <Progress percent={10} size="small" />
     },
     {
       img: ava3,
-      Title: "Điện thoại Samsung Galaxy M51",
+      Title: "Điện thoại Samsung Galaxy M51 - Apple GPU (4-core graphics)",
       bud: "Not Set",
       progress: <Progress percent={100} size="small" status="active" />
     },
