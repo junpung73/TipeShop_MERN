@@ -15,7 +15,7 @@ import ThemeConfig from './theme';
 import { SnackbarUtilsConfigurator } from './utils/snackbar';
 //Google Analytics
 import ReactGA from 'react-ga';
-
+// hello anh Phong
 const App = () => {
 	useEffect(() => {
 		ReactGA.initialize('UA-166801530-1');
